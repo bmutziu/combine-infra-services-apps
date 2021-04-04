@@ -7,4 +7,4 @@ spec:
     spec:
       containers:
       - name: argocd-server
-        command: [argocd-server, --staticassets, /shared/app, --insecure, --repo-server-timeout-seconds 270]
+        command: [argocd-server, --staticassets, /shared/app, --insecure]
